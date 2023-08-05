@@ -3,8 +3,8 @@ Data modeling in MongoDB
 
 ## Contents
 - Strings
-- enums, numbers, booleans
-- arrays and subdocs
+- Enums, numbers, booleans
+- Arrays and subdocs
 - Relations
 - Denormalization
 - Computed pattern
