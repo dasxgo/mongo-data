@@ -1,7 +1,7 @@
 # Mongo Data
 Data modeling in MongoDB
 
-## Applications
+## Contents
 - Strings
 - enums, numbers, booleans
 - arrays and subdocs
