@@ -3,5 +3,8 @@ use('store')
 db.users.insertOne({
     last_name: "Molina",
     email: "nico@gmail.com",
-    password: "----"
+    password: "----",
+    role: 'seller',
+    age: 22,
+    isSingle: true
 })
