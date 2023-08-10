@@ -1,0 +1,8 @@
+use('store')
+
+db.users.insertOne({
+    email: "nico@gmail.com",
+    password: 'Azas1jsajdnjasdjdsaj33432kds',
+    role: 'admin',
+    social_accounts: ["twitter", 'facebook']
+})   
