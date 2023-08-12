@@ -1,0 +1,7 @@
+use('store')
+
+//db.users.find()
+
+db.users.find({
+    "address.city": "Bogota"
+}).count()
