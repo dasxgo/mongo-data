@@ -1,0 +1,19 @@
+use('store')
+
+db.orders.insertOne({
+    user_Id: ObjectId('64d6cc1da89d280403fc7d50'),
+    date: '2020-12-12',
+    items: [
+        {
+            name: 'Camiseta',
+            price: 120,
+            qty: 1
+        },
+        {
+            name: 'Pantalon',
+            price: 200,
+            qty: 2
+        }
+    ]
+})
+
