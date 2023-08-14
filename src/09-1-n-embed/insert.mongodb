@@ -5,14 +5,9 @@ db.orders.insertOne({
     date: '2020-12-12',
     items: [
         {
-            name: 'Camiseta',
+            name: 'Juguete',
             price: 120,
             qty: 1
-        },
-        {
-            name: 'Pantalon',
-            price: 200,
-            qty: 2
         }
     ]
 })
