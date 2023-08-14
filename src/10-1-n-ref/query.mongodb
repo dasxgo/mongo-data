@@ -1,0 +1,23 @@
+use('store')
+
+// db.users.find()
+// db.orders.find().count()
+// db.orders.find({user_Id: ObjectId('64d6cc4e2e8d8199733dabfd')}).count()
+// db.users.find()
+db.orders.find({user_Id: ObjectId('64d6cc1da89d280403fc7d50')}).count()
+db.users.findOne({_id: ObjectId('64d6cc1da89d280403fc7d50')})
+
+db.orders.aggregate([
+    {
+        $lookup: {
+          from: 'users',
+          localField: 'user_id',
+          foreignField: '_id',
+          as: 'user'
+       }
+    }
+])
+
+
+
+
