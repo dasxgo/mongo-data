@@ -1,0 +1,8 @@
+use('store')
+
+db.orders.insertOne({
+    user_id: ObjectId('6497b8b4affb4e4355c4f297'),
+    date: '2020-12-12',
+    total: 0, // nuevo campo que sera la suma de los items
+    items: [] //normalmente empieza sin nada una orden de compra
+})
