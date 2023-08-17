@@ -1,5 +1,5 @@
-# Mongo Data
-Data modeling in MongoDB
+# **Mongo Data**
+Data modeling in mongoDB
 
 ## Contents
 - Strings
