@@ -1,7 +1,7 @@
-# **Mongo Data**
+# Overview 
 Data modeling in mongoDB
 
-## Contents
+## Table of Contents
 - Strings
 - Enums, numbers, booleans
 - Arrays and subdocs
